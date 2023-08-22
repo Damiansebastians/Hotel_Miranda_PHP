@@ -163,7 +163,8 @@
  </div>
  </div>
  <div class="menu__buttons">
- <button><</button>
+ <button>
+ << /button>
  <button>></button>
  </div>
  <div class="menu__slider">
@@ -215,6 +216,6 @@
  </div>
  </div>
  </div>
- </section> 
+ </section>
 </main>
 <?php if (isset($_shouldextend[1])) { echo $this->runChild("layout"); } ?>

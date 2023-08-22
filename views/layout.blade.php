@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="../styles/sass/scss/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <title>Home - Hotel Miranda</title>
 </head>
 
@@ -44,12 +44,12 @@
         </div>
     </header>
 
-  <main>
-    @yield('content')
-  </main>
+    <main>
+        @yield('content')
+    </main>
 
-  <!-- FOOTER -->
-  <footer>
+    <!-- FOOTER -->
+    <footer>
         <div class="footer">
 
             <div class="container">
@@ -130,7 +130,7 @@
         </div>
     </footer>
 
-  <script src="../scripts/main.js"></script>
+    <script src="../scripts/main.js"></script>
 </body>
 
 </html>

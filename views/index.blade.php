@@ -3,8 +3,8 @@
 @section("content")
 
 <main>
-        <!-- BANNER -->
-        <section class="banner">
+       <!-- BANNER -->
+       <section class="banner">
             <div class="banner__text">
                 <h2 class="banner__title">THE ULTIMATE LUXURY EXPERIENCE</h2>
                 <p class="banner__description">The Perfect
@@ -40,19 +40,19 @@
                 ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <button class="about__button">BOOK NOW</button>
             <div class="about__image">
-                <img class="about__image__team" src="./img/sliders/strong1.jpg" alt="strong team">
+                <img class="about__image__team" src="./assets/index/strong1.jpg" alt="strong team">
             </div>
             <div class="about__section">
-                <img class="about__section__vector" src="./img/gobbler_strong_mobile.png" alt="Globber">
+                <img class="about__section__vector" src="./assets/index/gobbler_strong_mobile.png" alt="Globber">
                 <h3 class="about__section__title">Strong Team</h3>
                 <p class="about__section__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                     eiusmod tempor.</p>
             </div>
             <div class="about__image2">
-                <img class="about__image__team" src="./img/sliders/strong2.jpg" alt="strong team">
+                <img class="about__image__team" src="./assets/index/strong2.jpg" alt="strong team">
             </div>
             <div class="about__section2">
-                <img class="about__section2__vector" src="./img/gobbler_luxery_mobile.png" alt="Globber">
+                <img class="about__section2__vector" src="./assets/index/gobbler_luxery_mobile.png" alt="Globber">
                 <h3 class="about__section2__title">Strong Team</h3>
                 <p class="about__section2__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                     eiusmod tempor.</p>
@@ -64,15 +64,15 @@
             <p class="rooms__title">ROOMS</p>
             <h2 class="rooms__description">Hand Picked Rooms</h2>
             <div class="rooms__icons">
-                <img class="rooms__icons__image" src="./img/icons__mobile.svg" alt="">
+                <img class="rooms__icons__image" src="./assets/index/icons__mobile.svg" alt="">
             </div>
             <div class="rooms__slider">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="./img/sliders/room2.jpg" alt="Rooms"></div>
-                        <div class="swiper-slide"><img src="./img/sliders/room3.jpg" alt="Rooms"></div>
-                        <div class="swiper-slide"><img src="./img/sliders/room4.jpg" alt="Rooms"></div>
-                        <div class="swiper-slide"><img src="./img/sliders/room1.jpg" alt="Rooms"></div>
+                        <div class="swiper-slide"><img src="./assets/sliders/room2.jpg" alt="Rooms"></div>
+                        <div class="swiper-slide"><img src="./assets/sliders/room3.jpg" alt="Rooms"></div>
+                        <div class="swiper-slide"><img src="./assets/sliders/room4.jpg" alt="Rooms"></div>
+                        <div class="swiper-slide"><img src="./assets/sliders/room1.jpg" alt="Rooms"></div>
                     </div>
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
@@ -111,13 +111,13 @@
                     <p>01</p>
                 </div>
                 <div class="facilities__box__image">
-                    <img src="./img/facilities_icon_mobile.svg" alt="icon stars">
+                    <img src="./assets/index/facilities_icon_mobile.svg" alt="icon stars">
                 </div>
                 <h3 class="facilities__box__subtitle">Have High Rating</h3>
                 <p class="facilities__box__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna..</p>
                 <div class="facilities__box__pages">
-                    <img src="./img/facilities_pages_mabile.svg" alt="Pagination">
+                    <img src="./assets/index/facilities_pages_mobile.svg" alt="Pagination">
                 </div>
             </div>
         </section>
@@ -125,15 +125,15 @@
         <!-- MENU -->
         <section class="menu">
             <div class="menu__image">
-                <img src="./img/menu_mobile.svg" class="image__donnut" alt="Donnut">
-                <img src="./img/icon_donnut.svg" class="image__donnut2" alt="Donnut">
+                <img src="./assets/index/menu_mobile.svg" class="image__donnut" alt="Donnut">
+                <img src="./assets/index/icon_donnut.svg" class="image__donnut2" alt="Donnut">
             </div>
             <h4 class="menu__title">MENU</h4>
             <h2 class="menu__description">Our Foods Menu</h2>
             <div class="menu__item">
                 <div class="item__container">
                     <div class="menu__item__image">
-                        <img src="./img/menu1.jpg" alt="Menu">
+                        <img src="./assets/index/menu1.jpg" alt="Menu">
                     </div>
                     <div class="menu__item__details">
                         <p class="menu__item__subtitle">Eggs & Bacon</p>
@@ -143,7 +143,7 @@
                 </div>
                 <div class="item__container">
                     <div class="menu__item__image">
-                        <img src="./img/menu2.jpg" alt="Menu">
+                        <img src="./assets/index/menu2.jpg" alt="Menu">
                     </div>
                     <div class="menu__item__details">
                         <p class="menu__item__subtitle">Tea or Coffee</p>
@@ -153,7 +153,7 @@
                 </div>
                 <div class="item__container">
                     <div class="menu__item__image">
-                        <img src="./img/menu3.jpg" alt="Menu">
+                        <img src="./assets/index/menu3.jpg" alt="Menu">
                     </div>
                     <div class="menu__item__details">
                         <p class="menu__item__subtitle">Chia Oatmeal</p>
@@ -169,16 +169,18 @@
             <div class="menu__slider">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="./img/sliders/room2.jpg" alt="Rooms"></div>
-                        <div class="swiper-slide"><img src="./img/sliders/room4.jpg" alt="Rooms"></div>
-                        <div class="swiper-slide"><img src="./img/sliders/room3.jpg" alt="Rooms"></div>
+                        <div class="swiper-slide"><img src="./assets/sliders/room2.jpg" alt="Rooms"></div>
+                        <div class="swiper-slide"><img src="./assets/sliders/room4.jpg" alt="Rooms"></div>
+                        <div class="swiper-slide"><img src="./assets/sliders/room3.jpg" alt="Rooms"></div>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
+
+            <!-- ACHIEVEMENTS -->
             <div class="menu__achievements">
                 <div class="menu__achievements__box">
-                    <img class="menu__achievements__box--image" src="./img/icon1_box_mobile.svg" alt="achievements">
+                    <img class="menu__achievements__box--image" src="./assets/index/icon1_box_mobile.svg" alt="achievements">
                     <div class="menu__achievements__box--text">
                         <p>84k</p>
                         <p>+</p>
@@ -187,7 +189,7 @@
                 </div>
 
                 <div class="menu__achievements__box">
-                    <img class="menu__achievements__box--image" src="./img/icon2_box_mobile.svg" alt="achievements">
+                    <img class="menu__achievements__box--image" src="./assets/index/icon2_box_mobile.svg" alt="achievements">
                     <div class="menu__achievements__box--text">
                         <p>10M</p>
                         <p>+</p>
@@ -196,7 +198,7 @@
                 </div>
 
                 <div class="menu__achievements__box">
-                    <img class="menu__achievements__box--image" src="./img/icon3_box_mobile.svg" alt="achievements">
+                    <img class="menu__achievements__box--image" src="./assets/index/icon3_box_mobile.svg" alt="achievements">
                     <div class="menu__achievements__box--text">
                         <p>02k</p>
                         <p>+</p>
@@ -205,7 +207,7 @@
                 </div>
 
                 <div class="menu__achievements__box">
-                    <img class="menu__achievements__box--image" src="./img/icon4_box_mobile.svg" alt="achievements">
+                    <img class="menu__achievements__box--image" src="./assets/index/icon4_box_mobile.svg" alt="achievements">
                     <div class="menu__achievements__box--text">
                         <p>100M</p>
                         <p>+</p>
@@ -213,5 +215,5 @@
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </section> 
+</main>

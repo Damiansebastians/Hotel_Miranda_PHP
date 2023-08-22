@@ -46,7 +46,7 @@
   </header>
 
   <main>
-
+    @yield('content')
   </main>
 
   <!-- FOOTER -->

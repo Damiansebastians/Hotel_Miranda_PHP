@@ -1,0 +1,81 @@
+<?php $_shouldextend[1]=1; ?>
+<?php $this->startSection("title","Contact"); ?>
+<?php $this->startSection("content"); ?>
+
+<main>
+ <!-- ULTIMATE -->
+ <section class="ultimate">
+ <div>
+ <p class="ultimate__title">THE ULTIMATE LUXURY</p>
+ <h2 class="ultimate__description">New Details</h2>
+ </div>
+ <div class="ultimate__box">
+ <span class="ultimate__box--link">
+ <a href="index.html">Home |&nbsp;</a>
+ <a href="about.html">Blog</a>
+ </span>
+ </div>
+ </section>
+
+ <!-- CONTACT CARDS -->
+ <section class="contact-cards">
+ <div class="contact-cards-container">
+ <div class="contact-cards-container__items">
+ <img src="./assets/contact/01.svg" alt="01" class="contact-cards-container__items__img">
+ <div>
+ <img src="./assets/contact/email.svg" alt="email" class="contact-cards-container__items__icon">
+ <div class="contact-cards-container__items__text">
+ <h6 class="contact-cards-container__items__text__title">Hotel Address</h6>
+ <p class="contact-cards-container__items__text__info">19/A, Cirikon City hall Tower New
+ York, NYC</p>
+ </div>
+ </div>
+ </div>
+
+ <div class="contact-cards-container__items">
+ <img src="./assets/contact/02.svg" alt="01" class="contact-cards-container__items__img">
+ <div>
+ <img src="./assets/contact/phone.svg" alt="email" class="contact-cards-container__items__icon">
+ <div class="contact-cards-container__items__text">
+ <h6 class="contact-cards-container__items__text__title">Phone Number</h6>
+ <p class="contact-cards-container__items__text__info">+ 97656 8675 7864 7 <br>+ 876 766 8675
+ 765 6</p>
+ </div>
+ </div>
+ </div>
+
+ <div class="contact-cards-container__items">
+ <img src="./assets/contact/03.svg" alt="01" class="contact-cards-container__items__img">
+ <div>
+ <img src="./assets/contact/gps.svg" alt="email" class="contact-cards-container__items__icon">
+ <div class="contact-cards-container__items__text">
+ <h6 class="contact-cards-container__items__text__title">Email</h6>
+ <p class="contact-cards-container__items__text__info">info@webmail.com jobs.webmail@mail.com
+ </p>
+ </div>
+ </div>
+ </div>
+
+ </div>
+ </section>
+
+ <!-- IMAGE -->
+ <section class="image">
+ <div class="image__container">
+ <img src="./assets/contact/hotel_relax.jpg" alt="Hotel relax">
+ </div>
+ </section>
+
+ <!-- FORM -->
+ <form action="">
+ <div class="form">
+ <input class="form__input" type="text" placeholder="Your full name">
+ <input class="form__input" type="tel" placeholder="Add phone number">
+ <input class="form__input" type="email" placeholder="Enter email address">
+ <input class="form__input" type="text" placeholder="Enter subject">
+ <input class="form__input" id="input__message" type="text" placeholder="Enter message">
+ <button class="form__button" type="submit">Send</button>
+ </div>
+ </form>
+</main>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild("layout"); } ?>

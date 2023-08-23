@@ -1,6 +1,6 @@
 <?php
 
-    require './setup.php';
-    echo $blade->run('index')
+    include './setup.php';
+    echo $blade->run('index');
 
 ?>

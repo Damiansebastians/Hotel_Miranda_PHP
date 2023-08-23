@@ -1,3 +1,7 @@
+@extends("layout")
+@section("title","Rooms")
+@section("content")
+
 <!-- MAIN -->
 <main>
   <section class="ultimate">

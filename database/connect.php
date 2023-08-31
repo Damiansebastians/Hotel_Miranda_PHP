@@ -13,7 +13,9 @@ require_once "../db-config.php";
             die("Connection failed. Error: " . $conn->connect_error);
         }
 
+        // QUERY
         $query = "SELECT * FROM tabla";
         $result = $conn->query($query);
 
-    $conn->close();
+        // CLOSE CONNECTION
+        $conn->close();

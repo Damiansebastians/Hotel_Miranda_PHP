@@ -7,12 +7,13 @@ require_once "../db-config.php";
     $password = constant("DB_PASSWORD");
     $database = constant("DB_DATABASE");
 
-    try {
-        $dsn = "mysql:host=$host;dbname=$database;"; 
-        $conn = new PDO($dsn, $user, $password);
+        $conn = new mysqli($host, $user, $password, $database);
         
-        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        
-    } catch (PDOException $e) {
-        echo "Error: " . $e->getMessage();
-    }
+        if ($conn->connect_error) {
+            die("Connection failed. Error: " . $conn->connect_error);
+        }
+
+        $query = "SELECT * FROM tabla";
+        $result = $conn->query($query);
+
+    $conn->close();

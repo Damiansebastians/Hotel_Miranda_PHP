@@ -7,7 +7,6 @@ $user = constant("DB_USER");
 $password = constant("DB_PASSWORD");
 $database = constant("DB_DATABASE");
 
-
 //Create connection
 $conn = new mysqli($host, $user, $password, $database);
 
@@ -16,20 +15,11 @@ if ($conn->connect_error) {
 }
 echo "Connected to database successfully";
 
-//Query
-$query = "SELECT * FROM bookings";
-$result = $conn->query($query);
-
-echo $result;
-
-//close connection
-$conn->close();
-
 ?>
 
-//-----------------------------------EXAMPLE PDO---------------------------
-
 <!--
+
+//-----------------------------------EXAMPLE PDO---------------------------
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$database", $username, $password);
